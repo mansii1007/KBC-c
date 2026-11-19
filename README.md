@@ -1,31 +1,32 @@
-# Kaun Banega Crorepati Quiz Game 🎯
+# Kaun Banega Crorepati Quiz Game
 
-A console-based quiz game inspired by the popular TV show *Kaun Banega Crorepati*, developed using the C programming language.  
-The game includes multiple-choice questions, score tracking, colored terminal output, and a 50-50 lifeline feature.
+A console-based quiz inspired by the TV show *Kaun Banega Crorepati*, written in C.
+It includes eight multiple-choice questions about C programming, score tracking, colored terminal output, and a 50-50 lifeline.
 
----
+## How it works
 
-## 📌 How It Works
-- The player is presented with multiple-choice questions.
 - Each question has four options (A, B, C, D).
-- The player can use a **50-50 lifeline** once per question by pressing **L**.
-- Correct answers increase the score.
-- The final score and performance message are displayed at the end.
+- Press **L** once per question to use the 50-50 lifeline, which hides two wrong options.
+- A correct answer increases the score.
+- The final score out of 8 and a short performance message are shown at the end.
 
----
+## Features
 
-## ✨ Features
 - Interactive quiz gameplay
-- 50-50 lifeline functionality
-- Colored console interface using ANSI codes
+- 50-50 lifeline
+- Colored console output using ANSI codes
 - Case-insensitive input handling
 - Automatic score calculation
-- Beginner-friendly logic
 
----
+## How to run
 
-## 🛠️ Tech Stack
-- C Programming Language
-- ANSI Escape Codes for terminal colors
+```bash
+gcc KBC.c -o kbc
+./kbc
+```
 
----
+Colors work in terminals that support ANSI escape codes.
+
+## Tech stack
+
+C language · ANSI escape codes for terminal colors
